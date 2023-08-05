@@ -1,5 +1,5 @@
 a=10
-ech a is ${a}
+echo a is ${a}
 
 #special variables
 #$0-$N,$#,$*
@@ -12,8 +12,8 @@ total arguments = $*
 #command substitution
  DTAE= $(date)
 
- echo today date is $DATE
-# arithmetic substitution
+ echo today date is ${DATE}
+ # arithmetic substitution
  ADD=$(( 2+2 ))
 
  echo  2+2 is = $ADD
