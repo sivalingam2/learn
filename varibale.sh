@@ -19,11 +19,17 @@ ADD=$(( 2+2 ))
 echo  "2+2 is = $ADD"
 
 greet() {
-  echo devops
-  return 10
+  echo first1 argument - $1
+  echo second1 argument - $2
+  echo noof1 arguments - $#
+  echo total1 arguments - $*
 }
-greet
-echo status - $?
+greet 124 abs
+
+for x in fronted siva lingam;do
+  echo x is - $x
+  done
+
 
 
 
