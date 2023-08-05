@@ -33,6 +33,7 @@ for x in fronted siva lingam;do
 b=10
 while [ $b -gt 0 ]; do
   b=$(( b-1))
+  echo b is - $b
   done
 
 
