@@ -30,6 +30,10 @@ for x in fronted siva lingam;do
   echo x is - $x
   done
 
+b=10
+while [ $b -gt 0 ]; do
+  b=$(( b-1))
+  done
 
 
 
