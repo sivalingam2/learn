@@ -18,5 +18,12 @@ ADD=$(( 2+2 ))
 
 echo  "2+2 is = $ADD"
 
+greet() {
+  echo devops
+  return 10
+}
+greet
+echo status - $?
+
 
 
