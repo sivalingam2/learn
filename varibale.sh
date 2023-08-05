@@ -10,13 +10,13 @@ echo noof1 arguments - $#
 echo total1 arguments - $*
 
 #command substitution
- DTAE= $(date)
+ DATE=$(date)
 
- echo "today date is ${DATE}"
+echo "today date is ${DATE}"
  # arithmetic substitution
- ADD=$(( 2+2 ))
+ADD=$(( 2+2 ))
 
- echo  "2+2 is = $ADD"
+echo  "2+2 is = $ADD"
 
 
 
