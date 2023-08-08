@@ -36,5 +36,3 @@ while [ $b -gt 0 ]; do
   echo b is - $b
   done
 
-
-
